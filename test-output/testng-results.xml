@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T19:24:58 IST" name="Suite" finished-at="2023-12-01T19:26:17 IST" duration-ms="79112">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T19:24:58 IST" name="smoke" finished-at="2023-12-01T19:24:58 IST" duration-ms="71">
+    </test> <!-- smoke -->
+    <test started-at="2023-12-01T19:24:58 IST" name="Regression" finished-at="2023-12-01T19:26:17 IST" duration-ms="79112">
+      <class name="SeleniumWebDriver.Test.ErrorValidation">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SeleniumWebDriver.Test.ErrorValidation@34158c08]" started-at="2023-12-01T19:26:08 IST" name="LaunchApplication" finished-at="2023-12-01T19:26:12 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="titleErrorVAlidation()[pri:0, instance:SeleniumWebDriver.Test.ErrorValidation@34158c08]" started-at="2023-12-01T19:26:12 IST" name="titleErrorVAlidation" finished-at="2023-12-01T19:26:12 IST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [class2] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [class2] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SeleniumWebDriver.Test.ErrorValidation.titleErrorVAlidation(ErrorValidation.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleErrorVAlidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumWebDriver.Test.ErrorValidation@34158c08]" started-at="2023-12-01T19:26:12 IST" name="closeBrowser" finished-at="2023-12-01T19:26:17 IST" duration-ms="5116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumWebDriver.Test.ErrorValidation -->
+      <class name="SeleniumWebDriver.Test.Standlone">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:24:58 IST" name="LaunchApplication" finished-at="2023-12-01T19:25:47 IST" duration-ms="49439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:25:47 IST" name="SubmitOrder" finished-at="2023-12-01T19:25:54 IST" duration-ms="6538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:25:54 IST" name="closeBrowser" finished-at="2023-12-01T19:25:59 IST" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:25:59 IST" name="LaunchApplication" finished-at="2023-12-01T19:26:03 IST" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="TitleValidation()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:26:03 IST" name="TitleValidation" finished-at="2023-12-01T19:26:03 IST" duration-ms="45" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [abc] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [abc] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SeleniumWebDriver.Test.Standlone.TitleValidation(Standlone.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumWebDriver.Test.Standlone@e57b96d]" started-at="2023-12-01T19:26:03 IST" name="closeBrowser" finished-at="2023-12-01T19:26:08 IST" duration-ms="5332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumWebDriver.Test.Standlone -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
